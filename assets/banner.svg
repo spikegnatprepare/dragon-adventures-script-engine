@@ -1,0 +1,47 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="45%" stop-color="#1a0f1f"/>
+      <stop offset="100%" stop-color="#2b0f0f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#ff7b3f" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#ff7b3f" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ff7b3f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scale" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3fa796" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#3fa796" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow)"/>
+
+  <!-- decorative dragon-wing-like arcs -->
+  <path d="M 60 40 Q 220 -20 380 60 Q 260 40 60 40 Z" fill="#ff7b3f" opacity="0.08"/>
+  <path d="M 1140 40 Q 980 -20 820 60 Q 940 40 1140 40 Z" fill="#ff7b3f" opacity="0.08"/>
+
+  <path d="M 0 320 Q 300 260 600 320 T 1200 320" fill="none" stroke="#3fa796" stroke-width="2" opacity="0.15"/>
+  <path d="M 0 300 Q 300 350 600 300 T 1200 300" fill="none" stroke="#ff7b3f" stroke-width="1.5" opacity="0.12"/>
+
+  <circle cx="150" cy="90" r="3" fill="#ffffff" opacity="0.3"/>
+  <circle cx="1050" cy="80" r="2.5" fill="#ffffff" opacity="0.3"/>
+  <circle cx="980" cy="140" r="2" fill="#ffffff" opacity="0.25"/>
+  <circle cx="200" cy="150" r="2" fill="#ffffff" opacity="0.25"/>
+  <circle cx="600" cy="60" r="1.8" fill="#ffffff" opacity="0.2"/>
+
+  <ellipse cx="600" cy="180" rx="480" ry="150" fill="url(#scale)"/>
+
+  <path d="M 100 250 Q 130 220 160 250" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.08"/>
+  <path d="M 1040 250 Q 1070 220 1100 250" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.08"/>
+
+  <text x="600" y="170" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="60.0" font-weight="bold" fill="#ffffff">
+    <tspan>Dragon Adventures Script</tspan>
+  </text>
+
+  <text x="600" y="225" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21.0" fill="#c9d1d9">
+    <tspan>Script engine for Dragon Adventures grinders — no more manual farming, just run and go.</tspan>
+  </text>
+</svg>
